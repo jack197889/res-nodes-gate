@@ -3,9 +3,9 @@ name: VPN Gate Node Check
 on:
   schedule:
     # 每天北京时间凌晨 05:09 → UTC 21:09
-    # 每天北京时间下午 16:07 → UTC 08:07
+    # 每天北京时间下午 14:07 → UTC 06:07
     - cron: '9 21 * * *'
-    - cron: '7 8 * * *'
+    - cron: '7 6 * * *'
   workflow_dispatch:   # 保留这个方便手动触发测试
 
 permissions:
